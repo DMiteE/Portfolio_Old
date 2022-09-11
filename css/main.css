@@ -1,0 +1,799 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    background: black;
+    box-sizing: border-box;
+
+}
+
+.main {
+    margin-left: 110px;
+    margin-right: 130px;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(218, 213, 213, 0.898);
+    border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(218, 213, 213);
+    border-radius: 2px;
+}
+
+header {
+    margin: 0px auto;
+    justify-self: center;
+    display: flex;
+    justify-content: center;
+    color: #F2F2F2;
+    position: relative;
+
+}
+
+
+.menu {
+    display: inline-block;
+    position: relative;
+    left: 90px;
+}
+
+.logo {
+    margin-right: 440px;
+    display: inline-block;
+}
+
+li {
+    margin-right: 25px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+a {
+    font-size: 20px;
+    font-weight: bold;
+    color: #F2F2F2;
+    text-decoration: none;
+    border: 5px solid transparent;
+}
+
+.menu a {
+    position: relative;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+}
+
+.menu a::after {
+    content: "";
+    position: absolute;
+    background-color: #F2F2F2;
+    width: 0%;
+    height: 3px;
+    bottom: -1px;
+    left: 0px;
+    transition: 0.8s;
+}
+
+.menu a:hover::after {
+    width: 100%;
+}
+
+.logo h1 {
+    vertical-align: middle;
+    font-size: 30px;
+}
+
+h1 {
+    color: #F2F2F2;
+}
+
+p {
+    color: #F2F2F2;
+}
+
+.Hello {
+    justify-content: center;
+}
+
+.Hello h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 300px;
+    left: 0;
+    font-size: 90px;
+    text-align: center;
+    color: #F2F2F2;
+    mix-blend-mode: multiply;
+}
+
+.portf {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 400px;
+}
+
+.portf p {
+    margin: 0px auto;
+    justify-self: center;
+}
+
+.portfi {
+    width: 17.4ch;
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    color: #F2F2F2;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid #F2F2F2;
+    animation: flashing-border 0.75s step-end infinite,
+        printed-text 3s steps(21);
+}
+
+@keyframes flashing-border {
+    0% {
+        border-color: #F2F2F2;
+    }
+
+    50% {
+        border-color: black;
+    }
+
+    100% {
+        border-color: #F2F2F2;
+    }
+}
+
+@keyframes printed-text {
+    from {
+        width: 0;
+    }
+}
+
+.Hello video {
+    position: absolute;
+    margin: 0px auto;
+    justify-self: center;
+    left: 450px;
+    top: 340px;
+    width: 50%;
+    height: 9%;
+    object-fit: cover;
+    overflow: hidden;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.img-arrow-down img {
+    margin: 0px auto;
+    justify-self: center;
+    position: relative;
+    width: 6%;
+    margin-left: 47.5%;
+    margin-bottom: 200px;
+}
+
+.information {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.oInfo {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.3s ease-in, transform 0.3s ease-in;
+}
+
+.oInfo.animationClass {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.skilA {
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: opacity 0.5s ease-in, transform 0.5s ease-in;
+}
+
+.skilA.animationClass {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.infoText h1 {
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.infoText p {
+    font-size: 30px;
+    padding-right: 600px;
+    padding-top: 50px;
+    line-height: 40px;
+    margin-bottom: 100px;
+
+}
+
+.infoImage img {
+    position: relative;
+    display: flex;
+    top: 600px;
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+}
+
+.cSharp {
+    margin-top: -500px;
+    right: 200px;
+    z-index: 1;
+}
+
+.simplex {
+    margin-top: -695px;
+    left: 150px;
+}
+
+.itCube {
+    margin-top: -300px;
+    right: 110px;
+}
+
+.java {
+    margin-top: -250px;
+    left: 60px;
+}
+
+.JavaScript {
+    right: 210px;
+    margin-top: -360px;
+    z-index: 2;
+}
+
+.unity {
+    margin-top: -450px;
+}
+
+main {
+
+    padding-left: 150px;
+    padding-right: 200px;
+}
+
+.skillsmain {
+    margin-bottom: 250px;
+}
+
+.skillsmain h1 {
+    justify-content: center;
+    font-size: 50px;
+}
+
+.skils {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 70px;
+}
+
+.skils a {
+    font-size: 18px;
+    position: relative;
+}
+
+.skils a::after {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 3px;
+    background-color: #F2F2F2;
+    position: absolute;
+    bottom: -4px;
+    left: 0px;
+    opacity: 0;
+}
+
+.skils a:hover::after {
+    opacity: 1;
+    width: 100%;
+    transition: 0.5s ease;
+}
+
+.skils li {
+    display: flex;
+}
+
+.skillheader h1 {
+    color: black;
+}
+
+.projheader h1 {
+    color: black
+}
+
+.practiceheader h1 {
+    color: black;
+}
+
+.lowsiklls h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    padding-right: 300px;
+    color: #F2F2F2;
+}
+
+.lowsiklls a {
+    font-size: 18px;
+    position: relative;
+}
+
+.lowsiklls li {
+    display: flex;
+}
+
+.lowsiklls a::after {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 3px;
+    background-color: #F2F2F2;
+    position: absolute;
+    bottom: -4px;
+    left: 0px;
+    opacity: 0;
+}
+
+.lowsiklls a:hover::after {
+    opacity: 1;
+    width: 100%;
+    transition: 0.5s ease;
+}
+
+.skils h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    padding-right: 300px;
+    color: #F2F2F2;
+}
+
+.imagehead img {
+    margin-left: 1050px;
+    margin-top: -450px;
+}
+
+.project {
+    margin: 0px auto;
+    justify-self: center;
+    margin-bottom: 100px;
+}
+
+.project h1 {
+    margin-bottom: 60px;
+}
+
+.title h3 {
+    color: #F2F2F2;
+}
+
+.cardproject {
+    margin-right: -20%;
+    position: relative;
+    display: inline-block;
+
+}
+
+.card1 img {
+    height: 120px;
+    width: 460px;
+    border-radius: 3px;
+}
+
+.card1 {
+    margin: 10px;
+    position: relative;
+    height: 150px;
+    width: 460px;
+    display: inline-block;
+    background: #F2F2F2;
+    box-shadow: 0px 0px 3px 1px #F2F2F2;
+    transition: 0.4s linear;
+}
+
+.card1:hover {
+    box-shadow: 0px 1px 10px 1px #F2F2F2;
+}
+
+.card1 p {
+    margin-bottom: 2px;
+    line-height: 1.1em;
+    overflow: hidden;
+}
+
+.card1 a {
+    margin: 5%;
+    font-size: 15px;
+}
+
+.bottom a:hover {
+    transform: scale(0.9);
+}
+
+.card1 .image {
+    background: black;
+    height: 120px;
+    overflow: hidden;
+}
+
+.image img {
+    transition: 0.4s;
+}
+
+.card1.active .image img {
+    opacity: 0.8;
+    transform: scale(1.04);
+}
+
+.card1 .content {
+    position: absolute;
+    bottom: 0px;
+    background: black;
+    width: 100%;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+.bottom {
+    display: none;
+}
+
+.card2 img {
+    height: 120px;
+    width: 460px;
+    border-radius: 3px;
+}
+
+.card2 {
+    margin: 10px;
+    position: relative;
+    height: 150px;
+    width: 460px;
+    display: inline-block;
+    background: #F2F2F2;
+    box-shadow: 0px 0px 3px 1px #F2F2F2;
+    transition: 0.4s linear;
+}
+
+.card2:hover {
+    box-shadow: 0px 1px 10px 1px #F2F2F2;
+}
+
+.card2 p {
+    margin-bottom: 2px;
+    line-height: 1.1em;
+    overflow: hidden;
+}
+
+.card2 a {
+    margin: 5%;
+    font-size: 15px;
+}
+
+.card2 .image {
+    background: black;
+    height: 120px;
+    overflow: hidden;
+}
+
+.card2.active .image img {
+    opacity: 0.8;
+    transform: scale(1.04);
+}
+
+.card2 .content {
+    position: absolute;
+    bottom: 0px;
+    background: black;
+    width: 100%;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+.card3 img {
+    height: 120px;
+    width: 460px;
+    border-radius: 3px;
+}
+
+.card3 {
+    margin: 10px;
+    position: relative;
+    height: 150px;
+    width: 460px;
+    display: inline-block;
+    background: #F2F2F2;
+    box-shadow: 0px 0px 3px 1px #F2F2F2;
+    transition: 0.4s linear;
+}
+
+.card3:hover {
+    box-shadow: 0px 1px 10px 1px #F2F2F2;
+}
+
+.card3 p {
+    margin-bottom: 2px;
+    line-height: 1.1em;
+    overflow: hidden;
+}
+
+.card3 a {
+    margin: 5%;
+    font-size: 15px;
+}
+
+.card3 .image {
+    background: black;
+    height: 120px;
+    overflow: hidden;
+}
+
+.card3.active .image img {
+    opacity: 0.8;
+    transform: scale(1.04);
+}
+
+.card3 .content {
+    position: absolute;
+    bottom: 0px;
+    background: black;
+    width: 100%;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+
+.card4 img {
+    height: 120px;
+    width: 460px;
+    border-radius: 3px;
+}
+
+.card4 {
+    margin: 10px;
+    position: relative;
+    height: 150px;
+    width: 460px;
+    display: inline-block;
+    background: #F2F2F2;
+    box-shadow: 0px 0px 3px 1px #F2F2F2;
+    transition: 0.4s linear;
+}
+
+.card4:hover {
+    box-shadow: 0px 1px 10px 1px #F2F2F2;
+}
+
+.card4 p {
+    margin-bottom: 2px;
+    line-height: 1.1em;
+    overflow: hidden;
+}
+
+.card4 a {
+    margin: 5%;
+    font-size: 15px;
+}
+
+.card4 .image {
+    background: black;
+    height: 120px;
+    overflow: hidden;
+}
+
+.card4.active .image img {
+    opacity: 0.8;
+    transform: scale(1.04);
+}
+
+.card4 .content {
+    position: absolute;
+    bottom: 0px;
+    background: black;
+    width: 100%;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+
+.card5 img {
+    height: 120px;
+    width: 460px;
+    border-radius: 3px;
+}
+
+.card5 {
+    margin: 10px;
+    position: relative;
+    height: 150px;
+    width: 460px;
+    display: inline-block;
+    background: #F2F2F2;
+    box-shadow: 0px 0px 3px 1px #F2F2F2;
+    transition: 0.4s linear;
+}
+
+.card5:hover {
+    box-shadow: 0px 1px 10px 1px #F2F2F2;
+}
+
+.card5 p {
+    margin-bottom: 2px;
+    line-height: 1.1em;
+    overflow: hidden;
+}
+
+.card5 a {
+    margin: 5%;
+    font-size: 15px;
+}
+
+.card5 .image {
+    background: black;
+    height: 120px;
+    overflow: hidden;
+}
+
+.card5.active .image img {
+    opacity: 0.8;
+    transform: scale(1.04);
+}
+
+.card5 .content {
+    position: absolute;
+    bottom: 0px;
+    background: black;
+    width: 100%;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+.practice {
+    margin: 0px auto;
+    justify-self: center;
+    margin-bottom: 300px;
+    margin-left: 250px;
+}
+
+.pract {
+    opacity: 0;
+    transform: translateY(-50px);
+    transition: opacity 0.4s ease-in, transform 0.4s ease-in;
+}
+
+.pract.animationClass {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.practice p {
+    margin-top: 50px;
+    font-size: 20px;
+    margin-right: 180px;
+}
+
+.sliderWrapper {
+    width: 1000px;
+    height: 600px;
+    margin: 0px auto;
+    justify-self: center;
+    margin-top: 50px;
+    margin-left: 210px;
+    overflow: hidden;
+}
+
+.sliderInner {
+    display: flex;
+    transition: 0.5s all;
+}
+
+.iconarrow {
+    transform: scale(-1, 1);
+    left: 165px;
+    display: flex;
+    position: relative;
+    top: 370px;
+    width: 2%;
+}
+
+.iconarrow1 {
+    left: 1220px;
+    display: flex;
+    position: relative;
+    bottom: 336px;
+    width: 2%;
+}
+
+.arrowAnimation img:hover {
+    opacity: 0.2;
+}
+
+.contact {
+    margin: 0px auto;
+    justify-self: center;
+    justify-self: center;
+    display: flex;
+    justify-content: center;
+}
+
+.contact li {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.contact a::after {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 3px;
+    background-color: #F2F2F2;
+    position: absolute;
+    bottom: -4px;
+    left: 0px;
+    opacity: 0;
+}
+
+.contact a:hover::after {
+    opacity: 1;
+    width: 100%;
+    transition: 0.5s ease;
+}
+
+.contact a {
+    color: #F2F2F2;
+}

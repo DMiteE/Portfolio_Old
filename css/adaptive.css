@@ -1,0 +1,219 @@
+@media only screen and (max-width: 1200px) {
+    body {
+        width: 60%;
+    }
+
+    header {
+        position: relative;
+        left: 350px;
+        max-width: 40%;
+        margin: 50px auto;
+    }
+
+    .menu ul {
+        width: 900px;
+        position: relative;
+        bottom: 20px;
+        left: 250px;
+    }
+
+    .info1 {
+        padding-top: 150px;
+        margin: 0px auto;
+        position: relative;
+        left: 350px;
+    }
+
+    .Hello {
+        margin: 0px auto;
+        width: 700px;
+        position: relative;
+    }
+
+    .Hello H1 {
+        position: relative;
+        padding-right: 50px;
+        padding-top: 0px;
+        font-size: 50px;
+    }
+
+    .portf p {
+        left: 125px;
+    }
+
+    .Hello video {
+        top: 55px;
+        left: 40px;
+        position: relative;
+        width: 600px;
+        height: 50px;
+    }
+
+    .img-arrow-down img {
+        width: 20%;
+        left: 90px;
+        margin-bottom: 400px;
+    }
+
+    .imagehead img {
+        position: relative;
+        width: 500px;
+        max-width: 10000%;
+        right: 500px;
+        bottom: 100px;
+    }
+
+    .infoText p {
+        padding-right: 0px;
+        width: 200%;
+        margin-bottom: 300px;
+    }
+
+    .cardproject {
+        position: relative;
+        width: 100%;
+        margin-bottom: 100px;
+    }
+
+    .practice p {
+        margin-right: 0px;
+        width: 800px;
+    }
+
+    .practice {
+        margin-bottom: 500px;
+    }
+
+    .arrow-next img {
+        width: 10%;
+        left: 1150px;
+    }
+
+    .arrow-back img {
+        width: 10%;
+        left: 30px;
+    }
+
+    .slider-wrapper {
+        position: relative;
+        right: 100px;
+        width: 1000px;
+        height: 600px;
+    }
+
+    .contact {
+        position: relative;
+        left: 550px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    body {
+        width: 80%;
+    }
+
+    header {
+        position: relative;
+        left: 350px;
+        max-width: 40%;
+        margin: 50px auto;
+    }
+
+    .menu ul {
+        width: 900px;
+        position: relative;
+        bottom: 20px;
+        left: 250px;
+    }
+
+    .info1 {
+        padding-top: 150px;
+        margin: 0px auto;
+        position: relative;
+        left: 350px;
+    }
+
+    .Hello {
+        margin: 0px auto;
+        width: 700px;
+        position: relative;
+    }
+
+    .Hello H1 {
+        position: relative;
+        right: 100px;
+        padding-right: 50px;
+        padding-top: 0px;
+        font-size: 50px;
+    }
+
+    .portf p {
+        position: relative;
+        right: 40px;
+    }
+
+    .Hello video {
+        top: 55px;
+        left: 40px;
+        position: relative;
+        width: 600px;
+        height: 50px;
+    }
+
+    .img-arrow-down img {
+        width: 20%;
+        left: 90px;
+        margin-bottom: 400px;
+    }
+
+    .imagehead img {
+        position: relative;
+        width: 500px;
+        max-width: 10000%;
+        right: 500px;
+        bottom: 100px;
+    }
+
+    .infoText p {
+        padding-right: 0px;
+        width: 200%;
+        margin-bottom: 300px;
+    }
+
+    .cardproject {
+        position: relative;
+        width: 100%;
+        margin-bottom: 100px;
+    }
+
+    .practice p {
+        margin-right: 0px;
+        width: 800px;
+    }
+
+    .practice {
+        margin-bottom: 500px;
+    }
+
+    .arrow-next img {
+        width: 10%;
+        left: 1230px;
+    }
+
+    .arrow-back img {
+        width: 10%;
+        left: 150px;
+    }
+
+    .slider-wrapper {
+        position: relative;
+        right: 100px;
+        width: 1000px;
+        height: 600px;
+    }
+
+    .contact {
+        position: relative;
+        left: 550px;
+    }
+}
